@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section>
       <SectionTitle title="Contact" />
-      <div className="text-sm text-gray-700 space-y-2">
+      <div className="text-[13px] text-gray-700 space-y-1">
         <p>
           📧 <a
             href="mailto:niteshshah028@gmail.com"

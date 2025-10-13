@@ -25,7 +25,7 @@ export default function Projects() {
   return (
     <section>
       <SectionTitle title="Projects" />
-      <div className="space-y-4 text-sm">
+      <div className="space-y-4 text-[13px]">
         {projects.map((project) => (
           <div key={project.name}>
             <h3 className="font-semibold">{project.name}</h3>
