@@ -5,19 +5,19 @@ const projects = [
     name: "Personal Portfolio",
     link: "https://portfolio-ten-jade-21.vercel.app/",
     description:
-      "Designed and built a personal portfolio with React, Tailwind, and Framer Motion to showcase skills and projects.",
+      "Developed my first React portfolio using React.js, Tailwind CSS, Framer Motion for smooth animations, React Icons, and UI components from Uiverse.",
   },
   {
     name: "Info Nation",
     link: "https://info-nation-eight.vercel.app/posts",
     description:
-      "A practice project displaying articles with dynamic routing using Next.js and Tailwind CSS.",
+      "A React.js project built to practice API integration and client-side routing using react-router-dom, focusing on displaying dynamic articles.",
   },
   {
     name: "Pokémon Website",
     link: "https://pokemon-five-inky.vercel.app/",
     description:
-      "Interactive Pokémon site using API data with React and Tailwind CSS.",
+      "A responsive application designed to learn and work with complex APIs, built entirely with React and Tailwind CSS.",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function Projects() {
               href={project.link}
               className="text-blue-600 hover:underline"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               {project.link}
             </a>
