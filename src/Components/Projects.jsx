@@ -8,10 +8,10 @@ const projects = [
       "Developed my first React portfolio using React.js, Tailwind CSS, Framer Motion for smooth animations, React Icons, and UI components from Uiverse.",
   },
   {
-    name: "Info Nation",
-    link: "https://info-nation-eight.vercel.app/posts",
+    name: "Snippit",
+    link: "https://snippit-five.vercel.app/",
     description:
-      "A React.js project built to practice API integration and client-side routing using react-router-dom, focusing on displaying dynamic articles.",
+      "A Customizable React Code Editor with Syntax Highlighter, Theme Control, and Export Options.",
   },
   {
     name: "Pokémon Website",
