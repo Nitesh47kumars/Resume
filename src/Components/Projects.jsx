@@ -11,13 +11,13 @@ const projects = [
     name: "Snippit",
     link: "https://snippit-five.vercel.app/",
     description:
-      "A Customizable React Code Editor with Syntax Highlighter, Theme Control, and Export Options.",
+      "A customizable React code editor with syntax highlighting, theme control, and export options.",
   },
   {
     name: "Pokémon Website",
     link: "https://pokemon-five-inky.vercel.app/",
     description:
-      "A responsive application designed to learn and work with complex APIs, built entirely with React and Tailwind CSS.",
+      "A responsive application built with React and Tailwind CSS to explore and learn complex APIs.",
   },
 ];
 
@@ -25,13 +25,13 @@ export default function Projects() {
   return (
     <section>
       <SectionTitle title="Projects" />
-      <div className="space-y-4 text-[13px]">
+      <div className="space-y-4 text-sm text-gray-700">
         {projects.map((project) => (
           <div key={project.name}>
             <h3 className="font-semibold">{project.name}</h3>
             <a
               href={project.link}
-              className="text-blue-600 hover:underline"
+              className="text-blue-600 hover:underline break-all"
               target="_blank"
               rel="noopener noreferrer"
             >
