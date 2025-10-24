@@ -6,12 +6,10 @@ export default function Education() {
       <SectionTitle title="Education" />
       <div className="text-sm space-y-1">
         <p>
-          Pursuing Bachelor of Computer Applications (BCA) <br />
-          <span className="italic text-gray-600">
-            Guru Nanak Khalsa College, Yamuna Nagar
-          </span>
+          <span className="font-semibold">Bachelor of Computer Applications:</span> Computer Applications, 10/2025
         </p>
-        <p className="text-gray-600">Joined July 2024 – Present (3rd Semester)</p>
+        <p className="font-semibold">Guru Nanak Khalsa College - Yamuna Nagar</p>
+        <p className="text-gray-600">3rd Semester</p>
       </div>
     </section>
   );
