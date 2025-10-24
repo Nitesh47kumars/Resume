@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.14",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "@tailwindcss/vite": "^4.1.14",
+    "rollup": "^3.20.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -27,5 +28,11 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.14",
     "vite": "^7.1.7"
-  }
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
