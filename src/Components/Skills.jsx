@@ -13,14 +13,10 @@ export default function Skills() {
   return (
     <section>
       <SectionTitle title="Skills" />
-      <ul className="grid grid-cols-2 gap-2 text-sm text-gray-700">
+      <ul className="grid grid-cols-2 gap-1 text-sm text-gray-700">
         {skills.map((skill) => {
-          const [name, level] = skill.split("–").map((s) => s.trim());
-          return (
-            <li key={name}>
-              <strong>{name}</strong> – <span className="font-normal">{level}</span>
-            </li>
-          );
+          const [name, level] = skill.split("–").map(s => s.trim());
+          return <li key={name}><strong>{name}</strong> – {level}</li>;
         })}
       </ul>
     </section>
