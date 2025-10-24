@@ -13,11 +13,11 @@ export default function App() {
         className="w-full max-w-2xl bg-white shadow-md rounded-lg p-6 space-y-5 leading-tight text-[13px]"
       >
         <Header />
-        <Summary />
+        <Contact />
         <Education />
+        <Summary />
         <Skills />
         <Projects />
-        <Contact />
       </div>
     </div>
   );

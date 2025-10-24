@@ -1,7 +1,10 @@
 export default function SectionTitle({ title }) {
   return (
-    <h2 className="text-lg font-semibold border-b border-gray-300 pb-0.5 mb-2">
-      {title}
-    </h2>
+    <div className="relative flex items-center justify-center w-full my-4">
+      <div className="absolute inset-x-0 h-px bg-black"></div>
+      <h2 className="relative bg-white px-4 text-lg font-semibold font-serif text-gray-800">
+        {title}
+      </h2>
+    </div>
   );
 }
