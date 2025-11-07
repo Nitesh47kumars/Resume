@@ -1,17 +1,62 @@
 export default function Header() {
   return (
-    <header className="text-center mb-3">
-      <hr />
-      <h1 className="text-2xl my-2 font-serif font-bold text-gray-900">Nitesh Shah</h1>
-      <hr/>
-      <hr className="h-[2px] bg-black mt-[2px]" />
-      <p className="text-[12px] text-gray-700 my-2 text-center">
-        Yamunanagar, India 135001
-        <span className="mx-1 text-black">♦</span>
-        <a href="tel:+917988576105" className="hover:underline">+91 79885 76105</a>
-        <span className="mx-1 text-black">♦</span>
-        <a href="mailto:niteshshah028@gmail.com" className="hover:underline">niteshshah028@gmail.com</a>
-      </p>
+    <header className="text-center mb-4">
+      {/* Top Separator */}
+      <hr className="border-gray-300" />
+
+      {/* Name */}
+      <h1 className="text-2xl my-2 font-serif font-bold text-gray-900">
+        Nitesh Shah
+      </h1>
+
+      <hr className="border-gray-300 mb-2" />
+
+      {/* Contact Info */}
+      <div className="flex flex-col items-center gap-1 text-[13px] text-gray-700 leading-relaxed sm:text-[13px]">
+        <p>Yamunanagar, Haryana, India 135001</p>
+
+        <p>
+          <a href="tel:+917988576105" className="hover:underline">
+            Phone: +91 79885 76105
+          </a>{" "}
+          |{" "}
+          <a
+            href="mailto:niteshshah028@gmail.com"
+            className="hover:underline"
+          >
+            Email: niteshshah028@gmail.com
+          </a>
+        </p>
+
+        <p>
+          <a
+            href="https://www.linkedin.com/in/nitesh-kumar-b18348346"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            LinkedIn
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://portfolio-ten-jade-21.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Portfolio
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://github.com/Nitesh47kumars"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            GitHub
+          </a>
+        </p>
+      </div>
     </header>
   );
 }
