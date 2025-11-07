@@ -1,15 +1,15 @@
 export default function Header() {
   return (
-    <header className="text-center mb-4">
+    <header className="text-center">
       {/* Top Separator */}
       <hr className="border-gray-300" />
 
       {/* Name */}
-      <h1 className="text-2xl my-2 font-serif font-bold text-gray-900">
+      <h1 className="text-2xl my-1 font-serif font-bold text-gray-900">
         Nitesh Shah
       </h1>
 
-      <hr className="border-gray-300 mb-2" />
+      <hr className="border-gray-300 mb-1" />
 
       {/* Contact Info */}
       <div className="flex flex-col items-center gap-1 text-[13px] text-gray-700 leading-relaxed sm:text-[13px]">

@@ -19,7 +19,7 @@ export default function Contact() {
   return (
     <section>
       <SectionTitle title="Online Profiles" />
-      <ul className="text-sm text-gray-700 list-disc list-inside space-y-1">
+      <ul className="text-sm text-gray-700 list-disc list-inside">
         {profiles.map((profile) => (
           <li key={profile.name}>
             <strong>{profile.name}:</strong>{" "}

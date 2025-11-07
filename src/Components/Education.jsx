@@ -15,7 +15,7 @@ export default function Education() {
           Guru Nanak Khalsa College, Yamunanagar
         </p>
         <p>
-          <span className="text-gray-800">Expected Graduation:</span> October 2025
+          <span className="text-gray-800">Expected Graduation:</span> July 2027
         </p>
         <p>Current Year: 2nd Year (3rd Semester)</p>
       </div>

@@ -1,6 +1,6 @@
 export default function SectionTitle({ title }) {
   return (
-    <div className="relative flex items-center justify-center w-full my-3">
+    <div className="relative flex items-center justify-center w-full my-2">
       {/* Background line */}
       <div className="absolute inset-x-0 h-px bg-gray-400"></div>
 
