@@ -17,8 +17,9 @@ const projects = [
     name: "Info Nation",
     link: "https://info-nation-eight.vercel.app/",
     description:
-      "Built a simple information-based web app while learning how APIs work. This project focuses on fetching and displaying real-time data using public APIs. Not a major project—created quickly as a functional submission while working on a larger main project.",
-  }  
+      "A simple web app built while learning API integration. Fetches and displays real-time data. Created quickly as a functional submission while my main project is in progress.",
+  }
+  
 ];
 
 export default function Projects() {
