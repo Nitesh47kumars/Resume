@@ -14,11 +14,11 @@ const projects = [
       "Built a customizable online code editor using React.js and CSS with syntax highlighting, theme switching, and export functionality.",
   },
   {
-    name: "Pokémon Website",
-    link: "https://pokemon-five-inky.vercel.app/",
+    name: "Info Nation",
+    link: "https://info-nation-eight.vercel.app/",
     description:
-      "Created a responsive React app that integrates with a public Pokémon API to fetch and display data dynamically. Demonstrated API integration and responsive UI design.",
-  },
+      "Built a simple information-based web app while learning how APIs work. This project focuses on fetching and displaying real-time data using public APIs. Not a major project—created quickly as a functional submission while working on a larger main project.",
+  }  
 ];
 
 export default function Projects() {
