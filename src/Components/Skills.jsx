@@ -2,16 +2,15 @@ import SectionTitle from "./SectionTitle";
 
 export default function Skills() {
   const skills = [
-    "HTML5 & CSS3: Advanced",
-    "JavaScript (ES6+): Intermediate",
-    "React.js: Intermediate",
-    "Tailwind CSS: Intermediate",
-    "Framer Motion: Basic",
-    "Git & GitHub: Intermediate",
-    "Responsive Web Design: Advanced",
-    "REST API Integration: Intermediate",
-    "SEO Optimization: Basic",
-    "VS Code & NPM: Intermediate",
+    "HTML5 & CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Tailwind CSS",
+    "Framer-Motion",
+    "Git & GitHub",
+    "Responsive Web Apps",
+    "REST-API Integration",
+    "Redux-Toolkit",
   ];
 
   return (
@@ -22,7 +21,7 @@ export default function Skills() {
           const [name, level] = skill.split(":").map((s) => s.trim());
           return (
             <li key={name}>
-              <strong>{name}</strong>: {level}
+              <strong>{name}</strong> {level}
             </li>
           );
         })}
