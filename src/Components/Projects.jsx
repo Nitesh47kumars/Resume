@@ -14,10 +14,10 @@ const projects = [
       "Built a customizable online code editor using React.js and CSS with syntax highlighting, theme switching, and export functionality.",
   },
   {
-    name: "Info Nation",
-    link: "https://info-nation-eight.vercel.app/",
+    name: "Resumify",
+    link: "https://resumify-blush-six.vercel.app/",
     description:
-      "A simple web app built while learning API integration. Fetches and displays real-time data. Created quickly as a functional submission while my main project is in progress.",
+      "Built a full-featured resume builder with real-time preview, template selection, and one-click PDF export. Designed a responsive and clean UI for an easy resume-creation experience.",
   }
   
 ];

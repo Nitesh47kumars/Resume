@@ -12,7 +12,7 @@ export default function Summary() {
           Khalsa College, Yamunanagar. I specialize in building{" "}
           <strong>responsive, user-friendly web applications</strong> using{" "}
           <strong>
-            HTML, CSS, JavaScript (ES6+), React.js, Tailwind CSS, and Framer
+            HTML, CSS, JavaScript (ES6+), React.js, Redux, Tailwind CSS, and Framer
             Motion
           </strong>. I also use <strong>Git & GitHub</strong> for version
           control and collaboration.

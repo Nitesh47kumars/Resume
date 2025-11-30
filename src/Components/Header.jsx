@@ -33,7 +33,7 @@ export default function Header() {
             href="https://www.linkedin.com/in/nitesh-kumar-b18348346"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="text-blue-600 hover:underline"
           >
             LinkedIn
           </a>{" "}
@@ -42,7 +42,7 @@ export default function Header() {
             href="https://portfolio-ten-jade-21.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="text-blue-600 hover:underline"
           >
             Portfolio
           </a>{" "}
@@ -51,7 +51,7 @@ export default function Header() {
             href="https://github.com/Nitesh47kumars"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="text-blue-600 hover:underline"
           >
             GitHub
           </a>
