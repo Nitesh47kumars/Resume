@@ -1,13 +1,40 @@
-export default function Certificates({ certificates = [] }) {
+import SectionTitle from "./SectionTitle";
+
+const certificates = [
+  {
+    id: 1,
+    title: "Young Innovator Mindset Certification",
+    issuer: "International Institute of Organized Research (I2OR)",
+    date: "2025",
+    file: "Mindset_Certificate.pdf",
+  },
+  {
+    id: 2,
+    title: "Hands-On Workshop — E-Commerce with React & MongoDB",
+    issuer: "Guru Nanak Khalsa College, Yamuna Nagar",
+    date: "06 Nov 2025",
+    file: "Workshop_Certificate.pdf",
+  },
+  {
+    id: 3,
+    title: "Certificate of Participation",
+    issuer: "Guru Nanak Khalsa College, Yamuna Nagar",
+    date: "12 Nov 2025",
+    file: "Participation_Certificate.pdf",
+  },
+];
+
+
+export default function Certificates() {
   return (
-    <section className="w-full max-w-3xl mx-auto p-4">
-      <h2 className="text-xl font-semibold mb-4">Certificates</h2>
+    <section className="w-full mx-auto">
+      <SectionTitle title="Certificates" />
 
       <div className="space-y-3">
         {certificates.map((cert) => (
           <div
             key={cert.id}
-            className="border rounded-lg p-3 bg-white shadow-sm flex items-start justify-between"
+            className="shadow-sm flex items-start justify-between"
           >
             <div>
               <h3 className="font-medium text-sm">{cert.title}</h3>
@@ -23,16 +50,12 @@ export default function Certificates({ certificates = [] }) {
                 </a>
               )}
             </div>
-            <span className="text-xs text-gray-500 whitespace-nowrap">{cert.date}</span>
+            <span className="text-xs text-gray-500 whitespace-nowrap">
+              {cert.date}
+            </span>
           </div>
         ))}
       </div>
     </section>
   );
 }
-
-const certificates = [
-  { id: 1, title: "Mindset Certificate", issuer: "Organization Name", date: "2024", file: "Mindset_Certificate.pdf" },
-  { id: 2, title: "Participation Certificate", issuer: "Organization Name", date: "2024", file: "Participation_Certificate.pdf" },
-  { id: 3, title: "Workshop Certificate", issuer: "Organization Name", date: "2024", file: "Workshop_Certificate.pdf" },
-];
