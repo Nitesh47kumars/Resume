@@ -24,7 +24,6 @@ const certificates = [
   },
 ];
 
-
 export default function Certificates() {
   return (
     <section className="w-full mx-auto">
@@ -32,27 +31,29 @@ export default function Certificates() {
 
       <div className="space-y-3">
         {certificates.map((cert) => (
-          <div
-            key={cert.id}
-            className="shadow-sm flex items-start justify-between"
-          >
-            <div>
-              <h3 className="font-medium text-sm">{cert.title}</h3>
-              <p className="text-xs text-gray-600">{cert.issuer}</p>
-              {cert.file && (
-                <a
-                  href={`/${cert.file}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xs text-blue-600 underline mt-1 inline-block"
-                >
-                  View Certificate
-                </a>
-              )}
+          <div key={cert.id} className="flex flex-col">
+            <div className="flex items-center justify-between w-full">
+              <div className="flex items-center gap-2">
+                <h3 className="font-medium text-sm">{cert.title}</h3>
+
+                {cert.file && (
+                  <a
+                    href={`/${cert.file}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs text-blue-600 underline"
+                  >
+                    LINK
+                  </a>
+                )}
+              </div>
+
+              <span className="text-xs text-gray-500 whitespace-nowrap">
+                {cert.date}
+              </span>
             </div>
-            <span className="text-xs text-gray-500 whitespace-nowrap">
-              {cert.date}
-            </span>
+
+            <p className="text-xs text-gray-600">{cert.issuer}</p>
           </div>
         ))}
       </div>

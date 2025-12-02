@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <section>
       <SectionTitle title="Projects" />
-      <div className="space-y-3 text-sm text-gray-700">
+      <div className="space-y-2 text-sm text-gray-700">
         {projects.map((project) => (
           <div key={project.name} className="space-y-0.5">
             <div className="flex flex-wrap items-center gap-2">
