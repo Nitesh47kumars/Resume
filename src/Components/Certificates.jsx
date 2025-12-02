@@ -39,12 +39,11 @@ export default function Certificates() {
                 {cert.file && (
                   <a
                     href={`/${cert.file}`}
-                    target="_blank"
-                    rel="noreferrer"
+                    download
                     className="text-xs text-blue-600 underline"
                   >
-                    LINK
-                  </a>
+                    Download
+                  </a>            
                 )}
               </div>
 
