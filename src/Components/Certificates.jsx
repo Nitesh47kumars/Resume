@@ -36,15 +36,6 @@ export default function Certificates() {
               <div className="flex items-center gap-2">
                 <h3 className="font-medium text-sm">{cert.title}</h3>
 
-                {cert.file && (
-                  <a
-                    href={`/${cert.file}`}
-                    download
-                    className="text-xs text-blue-600 underline"
-                  >
-                    Download
-                  </a>            
-                )}
               </div>
 
               <span className="text-xs text-gray-500 whitespace-nowrap">
