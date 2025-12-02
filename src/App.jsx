@@ -3,7 +3,7 @@ import Summary from "./Components/Summary";
 import Education from "./Components/Education";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import Certificates from "./Components/Certificates";
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         <Skills />
         <Projects />
         <Education />
-        <Contact />
+        <Certificates />
       </div>
     </div>
   );
