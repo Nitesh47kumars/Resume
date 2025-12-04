@@ -20,11 +20,13 @@ export default function App() {
         </div>
 
         <div className="grid grid-cols-2 gap-8">
-          <Education />
+          <div className="space-y-5">
+            <Education />
+            <Projects />
+          </div>
           <Certificates />
         </div>
 
-        <Projects />
       </div>
     </div>
   );

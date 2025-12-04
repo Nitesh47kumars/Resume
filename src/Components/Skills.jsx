@@ -8,12 +8,12 @@ export default function Skills() {
     "React",
     "Tailwind CSS",
     "Redux",
+    "Animation",
     "Responsive Web Design",
     "REST API Integration",
     "Framer Motion",
-    "Animation",
+    "Styled-Components",
     "Git & GitHub",
-    "Styled-Components"
   ];
   
 

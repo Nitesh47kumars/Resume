@@ -3,7 +3,7 @@ import { HiLocationMarker } from "react-icons/hi";
 
 export default function Header() {
   return (
-    <header className="space-y-2 mb-5">
+    <header className="space-y-2 mb-2">
 
       <h1 className="text-3xl font-extrabold tracking-wide text-gray-900 uppercase mb-1">
         NITESH SHAH
@@ -13,7 +13,7 @@ export default function Header() {
         Front-End Developer
       </h2>
 
-      <div className="flex flex-wrap items-center gap-4 text-[11px] font-semibold text-gray-800 mt-1">
+      <div className="flex flex-wrap items-center gap-0 text-[11px] font-semibold text-gray-800 mt-1">
 
         <span className="flex items-center gap-1">
           <a
@@ -33,7 +33,7 @@ export default function Header() {
           </a>
         </span>
 
-        <span className="flex items-center gap-2">
+        <span className="flex items-center gap-1">
           <a
             href="https://www.linkedin.com/in/nitesh-kumar-b18348346/" 
             target="_blank"

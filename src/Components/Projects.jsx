@@ -33,7 +33,7 @@ export default function Projects() {
   return (
     <section>
       <SectionTitle title="Projects" />
-      <div className="space-y-2 text-xs mt-4">
+      <div className="space-y-2 text-xs">
         {projects.map((project, idx) => (
           <div key={project.name} className="space-y-1">
             <div className="flex flex-wrap items-center gap-2">
@@ -55,7 +55,7 @@ export default function Projects() {
 
             {/* Optional: hyphen-based divider */}
             {idx !== projects.length - 1 && (
-              <p className="text-gray-400 tracking-widest">---------------------------------------------------------------------------------------------------------------------</p>
+              <p className="text-gray-400 tracking-widest">--------------------------------------------------</p>
             )}
           </div>
         ))}
