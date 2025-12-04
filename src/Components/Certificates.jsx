@@ -36,7 +36,7 @@ export default function Certificates() {
     <section className="w-full mx-auto">
       <SectionTitle title="Certificates" />
 
-      <div className="space-y-3">
+      <div className="space-y-2">
         {certificates.map((cert, idx) => (
           <div key={cert.id} className="flex flex-col">
             <div className="flex items-center justify-between w-full">

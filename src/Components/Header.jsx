@@ -13,7 +13,7 @@ export default function Header() {
         Front-End Developer
       </h2>
 
-      <div className="flex flex-wrap items-center gap-0 text-[11px] font-semibold text-gray-800 mt-1">
+      <div className="flex flex-wrap items-center gap-4 text-[10px] font-semibold text-gray-800 mt-1">
 
         <span className="flex items-center gap-1">
           <a
