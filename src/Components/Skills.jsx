@@ -16,7 +16,7 @@ export default function Skills() {
   return (
     <section>
       <SectionTitle title="Technical Skills" />
-      <ul className="grid grid-cols-2 gap-1 text-sm text-gray-700 sm:grid-cols-2">
+      <ul className="grid grid-cols-2 gap-1 text-xs sm:grid-cols-2">
         {skills.map((skill) => {
           const [name, level] = skill.split(":").map((s) => s.trim());
           return (

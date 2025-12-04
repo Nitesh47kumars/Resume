@@ -34,16 +34,16 @@ export default function Certificates() {
           <div key={cert.id} className="flex flex-col">
             <div className="flex items-center justify-between w-full">
               <div className="flex items-center gap-2">
-                <h3 className="font-medium text-sm">{cert.title}</h3>
+                <h3 className="font-medium text-xs">{cert.title}</h3>
 
               </div>
 
-              <span className="text-xs text-gray-500 whitespace-nowrap">
+              <span className="text-xs whitespace-nowrap">
                 {cert.date}
               </span>
             </div>
 
-            <p className="text-xs text-gray-600">{cert.issuer}</p>
+            <p className="text-xs">{cert.issuer}</p>
           </div>
         ))}
       </div>

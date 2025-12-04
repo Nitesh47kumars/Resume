@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <section>
       <SectionTitle title="Education" />
-      <div className="text-sm text-gray-700 space-y-1">
+      <div className="text-xs space-y-1">
         <p>
           <span className="font-semibold">
             Bachelor of Computer Applications (BCA)

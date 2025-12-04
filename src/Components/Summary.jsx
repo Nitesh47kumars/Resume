@@ -4,7 +4,7 @@ export default function Summary() {
   return (
     <section>
       <SectionTitle title="Professional Summary" />
-      <div className="text-sm text-gray-700 leading-relaxed space-y-2">
+      <div className="text-xs leading-relaxed space-y-2">
         <p>
           I'm <span className="font-semibold">Nitesh Shah</span>, a{" "}
           <strong>Front-End Developer</strong> pursuing{" "}
