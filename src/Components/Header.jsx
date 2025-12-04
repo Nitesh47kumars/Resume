@@ -16,19 +16,54 @@ export default function Header() {
       <div className="flex flex-wrap items-center gap-4 text-[11px] font-semibold text-gray-800 mt-1">
 
         <span className="flex items-center gap-1">
-          <FaPhoneAlt className="text-blue-600" /> +91 79885 76105
+          <a
+            href="tel:+917988576105"
+            className="flex items-center gap-1 text-gray-800 hover:text-blue-600"
+          >
+            <FaPhoneAlt className="text-blue-600" /> +91 79885 76105
+          </a>
         </span>
 
         <span className="flex items-center gap-1">
-          <FaEnvelope className="text-blue-600" /> niteshshah028@gmail.com
+          <a
+            href="mailto:niteshshah028@gmail.com"
+            className="flex items-center gap-1 text-gray-800 hover:text-blue-600"
+          >
+            <FaEnvelope className="text-blue-600" /> niteshshah028@gmail.com
+          </a>
         </span>
 
-        <span className="flex items-center gap-[2px]">
-          <FaLinkedin className="text-blue-600" /> LinkedIn 
-          <span className="mx-1">|</span>
-          <FaGlobe className="text-blue-600" /> Portfolio
-          <span className="mx-1">|</span>
-          <FaGithub className="text-blue-600" /> GitHub
+        <span className="flex items-center gap-2">
+          <a
+            href="https://www.linkedin.com/in/nitesh-kumar-b18348346/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-gray-800 hover:text-blue-600"
+          >
+            <FaLinkedin className="text-blue-600"  /> LinkedIn
+          </a>
+
+          <span>|</span>
+
+          <a
+            href="https://portfolio-ten-jade-21.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-gray-800 hover:text-blue-600"
+          >
+            <FaGlobe className="text-blue-600" /> Portfolio
+          </a>
+
+          <span>|</span>
+
+          <a
+            href="https://github.com/Nitesh47kumars"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-gray-800 hover:text-blue-600"
+          >
+            <FaGithub className="text-blue-600"  /> GitHub
+          </a>
         </span>
 
         <span className="flex items-center">
