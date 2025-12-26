@@ -2,20 +2,19 @@ import SectionTitle from "./SectionTitle";
 
 export default function Skills() {
   const skills = [
-    "HTML5",
-    "CSS3",
+    "HTML5 / CSS3",
     "JavaScript (ES6+)",
-    "React",
-    "Redux",
+    "React.js",
+    "React Flow",
+    "Component Abstraction",
+    "Redux / State Management",
     "Tailwind CSS",
     "Framer Motion",
-    "Animation",
-    "Figma",
-    "E-Commerce",
+    "Visual Workflow UI",
     "Responsive Web Design",
     "REST API Integration",
-    "Styled-Components",
     "Git & GitHub",
+    "Figma to Code",
   ];
   
 
