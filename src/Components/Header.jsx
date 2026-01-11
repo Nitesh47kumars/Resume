@@ -10,7 +10,7 @@ export default function Header() {
       </h1>
 
       <h2 className="text-sm font-bold text-blue-600 tracking-wide">
-        Front-End Developer
+        Frontend Developer Intern (React) | BCA Student
       </h2>
 
       <div className="flex flex-wrap items-center gap-4 text-[10px] font-semibold text-gray-800 mt-1">
