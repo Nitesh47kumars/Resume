@@ -15,7 +15,7 @@ export default function Header() {
       </h1>
 
       <h2 className="text-sm font-bold text-blue-600 tracking-wide">
-        Full-Stack Developer (MERN) | BCA Student
+        MERN Stack Developer | Full-Stack JavaScript | BCA Student
       </h2>
 
       <div className="flex flex-wrap items-center gap-4 text-[10px] font-semibold text-gray-800 mt-1">
