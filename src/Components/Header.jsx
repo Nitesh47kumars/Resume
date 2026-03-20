@@ -9,7 +9,7 @@ import { HiLocationMarker } from "react-icons/hi";
 
 export default function Header() {
   return (
-    <header className="space-y-2 mb-2">
+    <header className="space-y-2 mb-1">
       <h1 className="text-3xl font-extrabold tracking-wide text-gray-900 uppercase mb-1">
         NITESH SHAH
       </h1>
