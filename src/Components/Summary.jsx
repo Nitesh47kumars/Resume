@@ -4,24 +4,19 @@ export default function Summary() {
   return (
     <section>
       <SectionTitle title="Summary" />
-      <div className="text-xs leading-relaxed space-y-2">
-        <p>
-          Frontend Developer (Fresher) with strong foundations in{" "}
-          <strong>
-            HTML, CSS, JavaScript (ES6+), React.js, Tailwind CSS, Redux, Git, and GitHub
-          </strong>.
-          Currently pursuing a Bachelor of Computer Applications (BCA) at Guru Nanak
-          Khalsa College, Yamunanagar, with hands-on experience through academic and
-          personal projects.
-        </p>
-
-        <p>
-          Built responsive and accessible web applications including a personal
-          portfolio, an online code editor, and a resume builder. Passionate about
-          creating intuitive user interfaces, writing clean and reusable components,
-          and continuously learning modern frontend technologies.
-        </p>
-      </div>
+      <p className="text-xs leading-relaxed">
+        Full-Stack Developer (Fresher) with hands-on experience in the{" "}
+        <strong>MERN stack — MongoDB, Express.js, React.js, and Node.js</strong>.
+        Currently pursuing BCA at Guru Nanak Khalsa College, Yamunanagar. Built
+        and deployed full-stack projects including a banking system with{" "}
+        <strong>JWT authentication</strong>, <strong>Bcrypt</strong> password hashing, and role-based
+        access control using <strong>Node.js</strong> and <strong>Express.js</strong> REST APIs backed
+        by <strong>MongoDB</strong> and <strong>Mongoose</strong>. Also developed a resume builder with
+        PDF export and a customizable code editor. Proficient in{" "}
+        <strong>React.js</strong>, <strong>Redux</strong>, <strong>Tailwind CSS</strong>, <strong>Axios</strong>,{" "}
+        <strong>Git & GitHub</strong>, and <strong>Postman</strong>. Passionate about writing clean,
+        reusable code and building intuitive full-stack web applications.
+      </p>
     </section>
   );
 }

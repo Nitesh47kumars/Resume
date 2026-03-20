@@ -37,18 +37,13 @@ export default function Certificates() {
       <SectionTitle title="Certificates" />
 
       <div className="space-y-2">
-        {certificates.map((cert, idx) => (
+        {certificates.map((cert) => (
           <div key={cert.id} className="flex flex-col">
             <div className="flex items-center justify-between w-full">
               <h3 className="font-medium text-xs">{cert.title}</h3>
               <span className="text-xs whitespace-nowrap">{cert.date}</span>
             </div>
             <p className="text-xs">{cert.issuer}</p>
-
-            {/* Optional: hyphen-based divider */}
-            {idx !== certificates.length - 1 && (
-              <p className="text-gray-400 tracking-widest">-------------------------------------------</p>
-            )}
           </div>
         ))}
       </div>

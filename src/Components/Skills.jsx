@@ -1,35 +1,23 @@
 import SectionTitle from "./SectionTitle";
 
 export default function Skills() {
-  const skills = [
-    "HTML5",
-    "CSS3",
-    "JavaScript (ES6+)",
-    "React.js",
-    "React Flow",
-    "Reusable Components",
-    "Redux (Basic State Management)",
-    "Tailwind CSS",
-    "Framer Motion",
-    "Responsive Web Design",
-    "REST API Integration",
-    "Git & GitHub",
-    "Figma to Code",
-  ];
-
   return (
     <section>
       <SectionTitle title="Technical Skills" />
-      <ul className="flex flex-wrap text-xs gap-2 font-bold">
-        {skills.map((skill) => (
-          <li
-            key={skill}
-            className="bg-white border-b px-2 py-1 border-gray-400 text-center"
-          >
-            {skill}
-          </li>
-        ))}
-      </ul>
+      <div className="text-xs space-y-1">
+        <p>
+          <span className="font-bold text-gray-900">Frontend:</span> HTML5,
+          CSS3, JavaScript (ES6+), React.js, Redux, Tailwind CSS, Framer Motion
+        </p>
+        <p>
+          <span className="font-bold text-gray-900">Backend:</span> Node.js,
+          Express.js, REST APIs, JWT, Bcrypt, Axios
+        </p>
+        <p>
+          <span className="font-bold text-gray-900">Database & Tools:</span>{" "}
+          MongoDB, Mongoose, Postman, Git & GitHub, Figma to Code
+        </p>
+      </div>
     </section>
   );
 }

@@ -4,7 +4,7 @@ export default function SectionTitle({ title }) {
       <h2 className="text-lg font-bold uppercase text-black tracking-wide">
         {title}
       </h2>
-      <div className="w-full h-[2px] bg-gray-900 mt-1"></div>
+      <hr className="border-t-2 border-gray-900 mt-1" />
     </div>
   );
 }
