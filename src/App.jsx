@@ -7,10 +7,10 @@ import Certificates from "./Components/Certificates";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-100 text-black flex justify-center p-2">
+    <div className="min-h-screen bg-gray-100 text-black flex justify-center">
       <div
         id="resume"
-        className="w-full max-w-3xl bg-white shadow-md rounded-lg p-8 space-y-1.5 leading-snug text-sm"
+        className="w-full max-w-[740px] bg-white shadow-sm rounded-lg p-4 space-y-1.5 leading-snug text-sm"
       >
         <Header />
         <Summary />

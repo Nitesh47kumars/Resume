@@ -6,8 +6,8 @@ const projects = [
     link: "https://banking-system-ten-zeta.vercel.app/",
     tech: "React.js, Node.js, Express.js, MongoDB, JWT, Bcrypt, Mongoose, Tailwind CSS",
     description: [
-      "Built a full-stack banking app with JWT authentication, Bcrypt password hashing, and role-based protected routes.",
-      "Developed RESTful APIs for account creation, fund transfers, transaction history, and an admin dashboard.",
+      "Built RESTful APIs with Express.js and MongoDB for account creation, fund transfers, and transaction history.",
+      "Implemented JWT authentication, Bcrypt password hashing, and role-based protected routes with Postman testing.",
     ],
   },
   {
@@ -47,7 +47,9 @@ export default function Projects() {
         {projects.map((project) => (
           <div key={project.name} className="space-y-0.5">
             <div className="flex flex-wrap items-center gap-2">
-              <h3 className="text-[13px] font-bold text-gray-900">{project.name}</h3>
+              <h3 className="text-[13px] font-bold text-black">
+                {project.name}
+              </h3>
               <a
                 href={project.link}
                 target="_blank"
@@ -55,25 +57,25 @@ export default function Projects() {
                 className="text-blue-600 hover:underline"
               >
                 <svg
-                    stroke="currentColor"
-                    fill="currentColor"
-                    strokeWidth="0"
-                    viewBox="0 0 24 24"
-                    height="12"
-                    width="12"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
-                  </svg>
+                  stroke="currentColor"
+                  fill="currentColor"
+                  strokeWidth="0"
+                  viewBox="0 0 24 24"
+                  height="12"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
+                </svg>
               </a>
             </div>
 
-            <p className="text-gray-700">
-              <span className="font-semibold text-gray-900">Tech: </span>
+            <p className="text-black">
+              <span className="font-semibold text-black">Tech: </span>
               {project.tech}
             </p>
 
-            <ul className="list-disc list-inside space-y-0.5">
+            <ul className="list-disc text-black list-inside space-y-0.5">
               {project.description.map((point, i) => (
                 <li key={i}>{point}</li>
               ))}

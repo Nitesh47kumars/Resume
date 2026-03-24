@@ -18,7 +18,7 @@ export default function Header() {
         MERN Stack Developer | Full-Stack JavaScript | BCA Student
       </h2>
 
-      <div className="flex flex-wrap items-center gap-4 text-[10px] font-semibold text-gray-800 mt-1">
+      <div className="flex flex-wrap items-center gap-3 text-[10px] font-semibold text-gray-800 mt-1">
         <a
           href="tel:+917988576105"
           className="flex items-center gap-1 text-gray-800 hover:text-blue-600"
@@ -33,7 +33,7 @@ export default function Header() {
           <FaEnvelope className="text-blue-600" /> niteshshah028@gmail.com
         </a>
 
-        <span className="flex items-center gap-1">
+        <span className="flex items-center gap-1.5">
           <a
             href="https://www.linkedin.com/in/nitesh-kumar-b18348346/"
             target="_blank"
@@ -63,8 +63,8 @@ export default function Header() {
         </span>
 
         <span className="flex items-center gap-1">
-          <HiLocationMarker className="text-blue-600" /> Yamunanagar, Haryana,
-          India 135001
+          <HiLocationMarker className="text-blue-600" /> Yamunanagar |
+          Open to Relocate · Mohali, Punjab
         </span>
       </div>
     </header>

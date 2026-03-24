@@ -13,7 +13,7 @@ export default function Education() {
             Guru Nanak Khalsa College, Yamunanagar
           </p>
           <p className="text-gray-600">
-            2nd Year, 4rd Semester
+            2nd Year, 4th Semester
           </p>
         </div>
         <div className="text-right shrink-0 space-y-0.5">

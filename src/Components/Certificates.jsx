@@ -3,17 +3,17 @@ import SectionTitle from "./SectionTitle";
 const certificates = [
   {
     id: 1,
-    title: "Young Innovator Mindset Certification",
-    issuer: "International Institute of Organized Research (I2OR)",
-    date: "2025",
-    slug: "mindset",
-  },
-  {
-    id: 2,
     title: "Hands-On Workshop — E-Commerce with React & MongoDB",
     issuer: "Guru Nanak Khalsa College, Yamuna Nagar",
     date: "06 Nov 2025",
     slug: "workshop",
+  },
+  {
+    id: 2,
+    title: "Young Innovator Mindset Certification",
+    issuer: "International Institute of Organized Research (I2OR)",
+    date: "2025",
+    slug: "mindset",
   },
   // {
   //   id: 3,
@@ -35,7 +35,7 @@ export default function Certificates() {
   return (
     <section className="w-full mx-auto">
       <SectionTitle title="Certificates" />
-      <div className="space-y-2.5">
+      <div className="space-y-1.5">
         {certificates.map((cert) => (
           <div key={cert.id} className="flex flex-col">
             <div className="flex items-center justify-between w-full">
