@@ -15,7 +15,7 @@ export default function Header() {
       </h1>
 
       <h2 className="text-sm font-bold text-blue-600 tracking-wide">
-        MERN Stack Developer | Full-Stack JavaScript | BCA Student
+        Full Stack Developer (MERN) | React.js | Node.js | BCA Student
       </h2>
 
       <div className="flex flex-wrap items-center gap-3 text-[10px] font-semibold text-gray-800 mt-1">
@@ -63,8 +63,8 @@ export default function Header() {
         </span>
 
         <span className="flex items-center gap-1">
-          <HiLocationMarker className="text-blue-600" /> Yamunanagar |
-          Open to Relocate · Mohali, Punjab
+          <HiLocationMarker className="text-blue-600" /> Yamunanagar | Open to
+          Relocate · Mohali, Punjab
         </span>
       </div>
     </header>

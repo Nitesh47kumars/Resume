@@ -7,15 +7,23 @@ const skills = [
   },
   {
     label: "Backend",
-    value: "Node.js, Express.js, REST APIs, JWT, Bcrypt, Axios",
+    value: "Node.js, Express.js, REST APIs, JWT Authentication, Bcrypt",
   },
   {
-    label: "Database & Tools",
-    value: "MongoDB, Mongoose, Postman, Git & GitHub, Figma to Code",
+    label: "Database",
+    value: "MongoDB, Mongoose, Basic MySQL",
+  },
+  {
+    label: "Tools & Platforms",
+    value: "Git, GitHub, Postman, Vercel, Netlify",
+  },
+  {
+    label: "Other",
+    value: "API Integration, Responsive UI Development, Debugging & Testing",
   },
   {
     label: "Soft Skills",
-    value: "Communication, Teamwork, Willingness to Learn, Fast Learner",
+    value: "Problem-Solving, Team Collaboration, Quick Learner, Adaptability",
   },
 ];
 

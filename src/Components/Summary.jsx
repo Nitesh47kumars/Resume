@@ -5,14 +5,16 @@ export default function Summary() {
     <section>
       <SectionTitle title="Summary" />
       <p className="text-xs text-black leading-relaxed">
-        Full-Stack MERN Developer (Fresher) with hands-on project experience in
-        MongoDB, Express.js, React.js, and Node.js. Currently pursuing BCA at
-        Guru Nanak Khalsa College, Yamunanagar. Built and deployed full-stack
-        projects including a banking system with JWT authentication, Bcrypt
-        password hashing, role-based access control, and RESTful APIs using
-        Express.js and MongoDB. Eager to assist senior developers, participate
-        in code reviews, and grow through real-time mentorship in a fast-paced
-        development environment.
+        Full-Stack MERN Developer with hands-on experience building scalable web
+        applications using MongoDB, Express.js, React.js, and Node.js. Currently
+        pursuing BCA and actively developing real-world projects with REST APIs,
+        JWT authentication, and responsive UI design.
+        
+        Strong foundation in both frontend and backend development with
+        experience in API integration, debugging, and performance optimization.
+        Passionate about learning from senior developers, contributing to team
+        discussions, and building production-ready applications in a fast-paced
+        environment.
       </p>
     </section>
   );
