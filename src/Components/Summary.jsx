@@ -5,16 +5,16 @@ export default function Summary() {
     <section>
       <SectionTitle title="Summary" />
       <p className="text-xs text-black leading-relaxed">
-        Full-Stack MERN Developer with hands-on experience building scalable web
-        applications using MongoDB, Express.js, React.js, and Node.js. Currently
-        pursuing BCA and actively developing real-world projects with REST APIs,
-        JWT authentication, and responsive UI design.
-        
-        Strong foundation in both frontend and backend development with
-        experience in API integration, debugging, and performance optimization.
-        Passionate about learning from senior developers, contributing to team
-        discussions, and building production-ready applications in a fast-paced
-        environment.
+        Frontend-focused developer with hands-on experience building responsive web
+        applications using React.js, JavaScript, and Tailwind CSS. Experienced in
+        building dashboard-style applications, integrating REST APIs, implementing
+        authentication systems, and deploying applications on Vercel.
+
+        Familiar with the fundamentals of Next.js and TypeScript and actively
+        expanding expertise through personal projects and continuous learning.
+        Comfortable using AI-assisted development tools such as ChatGPT and GitHub
+        Copilot to improve development efficiency while maintaining code quality and
+        sound engineering practices.
       </p>
     </section>
   );

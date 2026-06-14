@@ -3,7 +3,8 @@ import SectionTitle from "./SectionTitle";
 const skills = [
   {
     label: "Frontend",
-    value: "HTML5, CSS3, JavaScript (ES6+), React.js, Redux, Tailwind CSS",
+    value:
+      "React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Redux, Context API, Next.js (Basics), TypeScript (Basics)",
   },
   {
     label: "Backend",
