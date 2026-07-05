@@ -4,27 +4,22 @@ const skills = [
   {
     label: "Frontend",
     value:
-      "React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Redux, Context API, Next.js (Basics), TypeScript (Basics)",
+      "React.js, JavaScript (ES6+), Tailwind CSS, Context API, TypeScript (Basics), Next.js (Basics)",
   },
   {
     label: "Backend",
-    value: "Node.js, Express.js, REST APIs, JWT Authentication, Bcrypt",
+    value:
+      "Node.js, Express.js, REST APIs, API Integration, JWT Authentication, Bcrypt",
   },
   {
     label: "Database",
-    value: "MongoDB, Mongoose, Basic MySQL",
+    value:
+      "MongoDB, Mongoose, MySQL (Basic)",
   },
   {
-    label: "Tools & Platforms",
-    value: "Git, GitHub, Postman, Vercel, Netlify",
-  },
-  {
-    label: "Other",
-    value: "API Integration, Responsive UI Development, Debugging & Testing",
-  },
-  {
-    label: "Soft Skills",
-    value: "Problem-Solving, Team Collaboration, Quick Learner, Adaptability",
+    label: "Tools",
+    value:
+      "Git, GitHub, Postman, Vercel, Netlify",
   },
 ];
 

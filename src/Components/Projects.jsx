@@ -19,15 +19,15 @@ const projects = [
       "Implemented JWT auth, cookies, token blacklisting, Multer uploads, Context API, and AI resume downloads.",
     ],
   },
-  {
-    name: "Resumify",
-    link: "https://resumify-blush-six.vercel.app/",
-    tech: "React.js, Tailwind CSS, jsPDF, HTML-to-Image, SessionStorage",
-    description: [
-      "Built a dynamic resume builder with real-time preview and multiple customizable templates.",
-      "Implemented PDF export with working hyperlinks and client-side data persistence using SessionStorage.",
-    ],
-  },
+  // {
+  //   name: "Resumify",
+  //   link: "https://resumify-blush-six.vercel.app/",
+  //   tech: "React.js, Tailwind CSS, jsPDF, HTML-to-Image, SessionStorage",
+  //   description: [
+  //     "Built a dynamic resume builder with real-time preview and multiple customizable templates.",
+  //     "Implemented PDF export with working hyperlinks and client-side data persistence using SessionStorage.",
+  //   ],
+  // },
   {
     name: "Personal Portfolio",
     link: "https://portfolio-ten-jade-21.vercel.app/",

@@ -4,17 +4,16 @@ export default function Summary() {
   return (
     <section>
       <SectionTitle title="Summary" />
-      <p className="text-xs text-black leading-relaxed">
-        Frontend-focused developer with hands-on experience building responsive web
-        applications using React.js, JavaScript, and Tailwind CSS. Experienced in
-        building dashboard-style applications, integrating REST APIs, implementing
-        authentication systems, and deploying applications on Vercel.
 
-        Familiar with the fundamentals of Next.js and TypeScript and actively
-        expanding expertise through personal projects and continuous learning.
-        Comfortable using AI-assisted development tools such as ChatGPT and GitHub
-        Copilot to improve development efficiency while maintaining code quality and
-        sound engineering practices.
+      <p className="text-xs text-black leading-relaxed">
+        Web Developer Intern with hands-on experience developing responsive
+        full-stack web applications using React.js, TypeScript, Node.js,
+        Express.js, and MongoDB. Experienced in building reusable React
+        components, integrating REST and Google APIs, enhancing admin dashboard
+        features, and restructuring application layouts. Strong foundation in
+        JWT authentication, database design, and modern frontend development,
+        with a passion for writing clean, maintainable code and continuously
+        learning new technologies.
       </p>
     </section>
   );

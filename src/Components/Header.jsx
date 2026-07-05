@@ -15,7 +15,7 @@ export default function Header() {
       </h1>
 
       <h2 className="text-sm font-bold text-blue-600 tracking-wide">
-        Frontend Developer | React.js • Tailwind CSS • Learning Next.js & TypeScript
+        Web Developer Intern | MERN Stack | React.js • TypeScript • Node.js • MongoDB
       </h2>
 
       <div className="flex flex-wrap items-center gap-3 text-[10px] font-semibold text-gray-800 mt-1">
