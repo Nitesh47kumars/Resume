@@ -1,9 +1,11 @@
 import SectionTitle from "./SectionTitle";
+import { IoLogoGithub } from "react-icons/io";
 
 const projects = [
   {
     name: "Banking System",
     link: "https://banking-system-ten-zeta.vercel.app/",
+    github: "https://github.com/Nitesh47kumars/Banking-System",
     tech: "React.js, Node.js, Express.js, MongoDB, JWT, Bcrypt, Mongoose, Tailwind CSS",
     description: [
       "Developed a full-stack banking application using MERN stack with REST APIs for account management and transactions.",
@@ -13,6 +15,7 @@ const projects = [
   {
     name: "UpSkillerAI",
     link: "https://up-skiller-ai-ten.vercel.app/",
+    github: "https://github.com/Nitesh47kumars/UpSkillerAI",
     tech: "MongoDB, Express.js, React.js, Node.js, SCSS, Gemini AI API, JWT, Cookies, Multer, Context API",
     description: [
       "Built an AI-powered MERN platform using Gemini AI for resume analysis, job matching, interview questions, and skill roadmaps.",
@@ -31,6 +34,7 @@ const projects = [
   {
     name: "Personal Portfolio",
     link: "https://portfolio-ten-jade-21.vercel.app/",
+    github: "https://github.com/Nitesh47kumars/Portfolio",
     tech: "React.js, Tailwind CSS, Framer Motion, Lenis.js",
     description: [
       "Designed and deployed a responsive portfolio showcasing projects and skills with modern UI/UX.",
@@ -47,9 +51,7 @@ export default function Projects() {
         {projects.map((project) => (
           <div key={project.name} className="space-y-0.5">
             <div className="flex flex-wrap items-center gap-2">
-              <h3 className="text-[13px] font-bold text-black">
-                {project.name}
-              </h3>
+
               <a
                 href={project.link}
                 target="_blank"
@@ -67,6 +69,20 @@ export default function Projects() {
                 >
                   <path d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 3 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"></path>
                 </svg>
+              </a>
+
+              <h3 className="text-[13px] font-bold text-black">
+                {project.name}
+              </h3>
+
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+                title="GitHub Repository"
+              >
+                <IoLogoGithub />
               </a>
             </div>
 
