@@ -24,15 +24,13 @@ export default function Experience() {
 
                 <ul className="list-disc list-inside text-xs space-y-0.5">
                     <li>
-                        Built responsive React and TypeScript interfaces with Tailwind CSS,
-                        integrated REST and Google APIs, and implemented new admin dashboard
-                        features using Node.js, Express.js, and MongoDB.
+                        Implemented theme switching, improved application layouts, and developing
+                        features including AI-powered EPUB/PDF reader.
                     </li>
 
                     <li>
-                        Improved application usability by restructuring layouts, resolving bugs,
-                        and collaborating with the development team through Git, GitHub, Jira, and
-                        Microsoft Teams.
+                        Participated in code reviews, resolved merge conflicts, and
+                        collaborated with the team using Git, GitHub, Jira, and Microsoft Teams.
                     </li>
                 </ul>
             </div>
