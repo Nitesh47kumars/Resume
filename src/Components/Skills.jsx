@@ -4,12 +4,12 @@ const skills = [
   {
     label: "Frontend",
     value:
-      "React.js, JavaScript (ES6+), Tailwind CSS, Context API, TypeScript (Basics), Next.js (Basics)",
+      "HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, Redux Toolkit, Context API, TypeScript (Basics), Next.js (Basics)",
   },
   {
     label: "Backend",
     value:
-      "Node.js, Express.js, REST APIs, API Integration, JWT Authentication, Bcrypt",
+      "Node.js, Express.js, REST APIs, API Integration, JWT Authentication",
   },
   {
     label: "Database",
@@ -19,7 +19,7 @@ const skills = [
   {
     label: "Tools",
     value:
-      "Git, GitHub, Postman, Vercel, Netlify",
+      "Git, GitHub, Postman, Jira, Microsoft Teams, MS Office Suite, MS Outlook",
   },
 ];
 

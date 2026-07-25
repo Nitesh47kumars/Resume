@@ -6,14 +6,14 @@ export default function Summary() {
       <SectionTitle title="Summary" />
 
       <p className="text-xs text-black leading-relaxed">
-        Web Developer Intern with hands-on experience developing responsive
-        full-stack web applications using React.js, TypeScript, Node.js,
-        Express.js, and MongoDB. Experienced in building reusable React
-        components, integrating REST and Google APIs, enhancing admin dashboard
-        features, and restructuring application layouts. Strong foundation in
-        JWT authentication, database design, and modern frontend development,
-        with a passion for writing clean, maintainable code and continuously
-        learning new technologies.
+        Full Stack Web Developer with hands-on experience building responsive
+        web applications using HTML, CSS, JavaScript, React.js, Node.js,
+        Express.js, and MongoDB, with a foundational understanding of MySQL.
+        Experienced in developing responsive user interfaces, integrating REST
+        APIs, debugging applications, and collaborating with cross-functional
+        teams using Git and GitHub. Strong problem-solving skills, adaptability,
+        and eagerness to learn new technologies while delivering clean,
+        maintainable web solutions.
       </p>
     </section>
   );

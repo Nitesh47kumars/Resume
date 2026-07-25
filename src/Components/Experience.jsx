@@ -24,13 +24,15 @@ export default function Experience() {
 
                 <ul className="list-disc list-inside text-xs space-y-0.5">
                     <li>
-                        Implemented theme switching, improved application layouts, and developing
-                        features including AI-powered EPUB/PDF reader.
+                        Developed and improved application features, enhanced layouts, and contributed to an AI-powered EPUB/PDF reader.
                     </li>
 
                     <li>
-                        Participated in code reviews, resolved merge conflicts, and
-                        collaborated with the team using Git, GitHub, Jira, and Microsoft Teams.
+                        Participated in code reviews, tested features before deployment, resolved merge conflicts, and collaborated with the team using Git, GitHub, Jira, and Microsoft Teams.
+                    </li>
+
+                    <li>
+                        Identified and fixed UI inconsistencies and verified feature functionality to improve the overall user experience.
                     </li>
                 </ul>
             </div>
